@@ -5,7 +5,8 @@
   use net\authorize\api\controller as AnetController;
 
   define("AUTHORIZENET_LOG_FILE", "phplog");
-
+  
+  // Process a payment
 function chargeCreditCard($amount)
 {
     /* Create a merchantAuthenticationType object with authentication details
