@@ -6,6 +6,7 @@
 
   define("AUTHORIZENET_LOG_FILE", "phplog");
 
+  // Retrieve a payment
 function chargeCreditCard($amount)
 {
     /* Create a merchantAuthenticationType object with authentication details
